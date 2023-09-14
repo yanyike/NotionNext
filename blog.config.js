@@ -222,7 +222,7 @@ const BLOG = {
   MUSIC_PLAYER_METING_SERVER:
         process.env.NEXT_PUBLIC_MUSIC_PLAYER_METING_SERVER || 'netease', // 音乐平台，[netease, tencent, kugou, xiami, baidu]
   MUSIC_PLAYER_METING_ID:
-        process.env.NEXT_PUBLIC_MUSIC_PLAYER_METING_ID || '1998182505', // 对应歌单的 id
+        process.env.NEXT_PUBLIC_MUSIC_PLAYER_METING_ID || '812754', // 对应歌单的 id
   MUSIC_PLAYER_METING_LRC_TYPE:
         process.env.NEXT_PUBLIC_MUSIC_PLAYER_METING_LRC_TYPE || '1', // 可选值： 3 | 1 | 0（0：禁用 lrc 歌词，1：lrc 格式的字符串，3：lrc 文件 url）
 
@@ -374,9 +374,9 @@ const BLOG = {
   },
 
   // RSS订阅
-  ENABLE_RSS: process.env.NEXT_PUBLIC_ENABLE_RSS || false, // 是否开启RSS订阅功能
-  MAILCHIMP_LIST_ID: process.env.MAILCHIMP_LIST_ID || null, // 开启mailichimp邮件订阅 客户列表ID ，具体使用方法参阅文档
-  MAILCHIMP_API_KEY: process.env.MAILCHIMP_API_KEY || null, // 开启mailichimp邮件订阅 APIkey
+  ENABLE_RSS: process.env.NEXT_PUBLIC_ENABLE_RSS || true, // 是否开启RSS订阅功能
+  MAILCHIMP_LIST_ID: process.env.MAILCHIMP_LIST_ID || '63fe7b61ba', // 开启mailichimp邮件订阅 客户列表ID ，具体使用方法参阅文档
+  MAILCHIMP_API_KEY: process.env.MAILCHIMP_API_KEY || '6a89e12e1e1a38aed497631d269b49b0-us21', // 开启mailichimp邮件订阅 APIkey
 
   // 作废配置
   AVATAR: process.env.NEXT_PUBLIC_AVATAR || '/avatar.svg', // 作者头像，被notion中的ICON覆盖。若无ICON则取public目录下的avatar.png
