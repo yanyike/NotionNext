@@ -27,7 +27,7 @@ const Footer = ({ title }) => {
       <span className='pl-2 hidden busuanzi_container_site_uv'>
         <i className='fas fa-users'/> <span className='px-1 busuanzi_value_site_uv'> </span> </span>
         <h1 className='text-xs pt-4 text-light-400 dark:text-gray-400'>{title} {BLOG.BIO && <>|</>} {BLOG.BIO}</h1>
-        <p className='text-xs pt-2 text-light-500 dark:text-gray-500'>放学后茶会Blog <a href='https://t.me/fangxuehou' className='dark:text-gray-300'>点击纸飞机加入我们 {BLOG.VERSION}</a>.</p></span><br/>
+        <p className='text-xs pt-2 text-light-500 dark:text-gray-500'> <a href='https://t.me/fangxuehou' className='dark:text-gray-300'>✈️ {BLOG.VERSION}</a>.</p></span><br/>
 
     </footer>
   )
